@@ -1,11 +1,10 @@
 import unittest
-import pytest
 import main
 
 
 class MyTestCase(unittest.TestCase):
-    def test_good(self):
-        self.aassrtTrue("good", main.TestParser.parser(main.testdata))
+    def test_weight(self):
+        self.assertTrue((main.TestParser.calculator("normal")))
 
 
 if __name__ == '__main__':

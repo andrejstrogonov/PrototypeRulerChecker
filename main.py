@@ -1,17 +1,16 @@
-from email.parser import Parser
-
-testdata = "if age>5 then good"
-
-
 class TestParser:
+    weight = {1: "normal", 2: "not good"}
+
     @staticmethod
-    def parser(testdata):
-        parser = Parser()
-        parser.parse(testdata)
-        return "good"
+    def calculator(weight):
+        if TestParser.weight[1] == "normal":
+            return True
+        else:
+            return False
+        pass
 
-    pass
 
+pass
 
 if __name__ == '__main__':
-    TestParser.parser()
+    TestParser.calculator(TestParser.weight[1])
