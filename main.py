@@ -1,6 +1,7 @@
 class TestParser:
     weight = {1: "normal", 2: "not good"}
     risk = {1: "low_medium", 2: "low"}
+    cholester = {1: "low", 2: "medium", 3: "much more"}
 
     @staticmethod
     def calculator():
@@ -16,6 +17,17 @@ class TestParser:
             return True
         else:
             return False
+
+        pass
+
+    @classmethod
+    def holstercalc(cls):
+        if TestParser.cholester[1] == "low":
+            return False
+        elif TestParser.cholester[2] == "low":
+            return True
+        else:
+            return 0.5
 
         pass
 

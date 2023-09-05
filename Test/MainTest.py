@@ -9,6 +9,10 @@ class MyTestCase(unittest.TestCase):
 
     def test_risk(self):
         self.assertTrue((main.TestParser.riskcalc()))
+
+        def test_holester():
+            self.assertTrue((main.TestParser.holstercalc()))
+
         pass
 
 
