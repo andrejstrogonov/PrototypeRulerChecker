@@ -36,4 +36,4 @@ pass
 
 if __name__ == '__main__':
     TestParser.calculator()
-    TestParser.riskcalc()
+    TestParser.riskcalc()nmmnm,
