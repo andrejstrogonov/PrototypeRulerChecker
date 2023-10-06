@@ -2,7 +2,7 @@ class TestParser:
     weight = {1: "normal", 2: "not good"}
     risk = {1: "low_medium", 2: "low"}
     cholester = {1: "low", 2: "medium", 3: "much more"}
-
+nk
     @staticmethod
     def calculator():
         if TestParser.weight[1] == "normal":
