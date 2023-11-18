@@ -15,6 +15,10 @@ class MyTestCase(unittest.TestCase):
 
         pass
 
+    def test_start(self):
+        self.assertTrue(main.TestParser.startcalc())
+        pass
+
 
 if __name__ == '__main__':
     unittest.main()

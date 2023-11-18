@@ -2,6 +2,7 @@ class TestParser:
     weight = {1: "normal", 2: "not good"}
     risk = {1: "low_medium", 2: "low"}
     cholester = {1: "low", 2: "medium", 3: "much more"}
+    start = {1: "True", 2: "False"}
 
     @staticmethod
     def calculator():
@@ -31,9 +32,21 @@ class TestParser:
 
         pass
 
+    @classmethod
+    def startcalc(cls):
+        if TestParser.start[1] == "True":
+            return True
+        elif TestParser.start[2] == "False":
+            return False
+        else:
+            return "not correct"
+
+        pass
+
 
 pass
 
 if __name__ == '__main__':
     TestParser.calculator()
     TestParser.riskcalc()
+    TestParser.startcalc()
