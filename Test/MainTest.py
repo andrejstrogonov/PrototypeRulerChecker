@@ -1,8 +1,9 @@
 import unittest
 import main
+from LPStructure.ActivationFunctions import ActivationFunctions
 
 
-class MyTestCase(unittest.TestCase):
+class MyTestCase1(unittest.TestCase):
     def test_weight(self):
         self.assertTrue((main.TestParser.calculator()))
         pass
@@ -17,6 +18,12 @@ class MyTestCase(unittest.TestCase):
 
     def test_start(self):
         self.assertTrue(main.TestParser.startcalc())
+        pass
+
+    @staticmethod
+    def test_product(self):
+        self.assertEqual(ActivationFunctions.relu(2), 2)
+
         pass
 
 
