@@ -28,8 +28,5 @@ def activation_function(weights):
     return list(map(lambda x: ActivationFunctions.relu(x) * x, weights))
 
 
-pass
-
-pass
-
-print(activation_function(weights))
+sort = list(filter(lambda x: x > 0.5, activation_function(weights)))
+print(sort)
