@@ -1,5 +1,16 @@
 from LPStructure.lpstructure import LPStructure
 
 
-def test_sum():
-    assert LPStructure.sum(True,False) == True
+class TestStub:
+    def test_sum(self):
+        assert LPStructure.sum(True, False) == True
+        pass
+
+    def test_multiplication(self):
+        assert LPStructure.multiplication(True, False) == True
+        pass
+
+    def test_implication(self):
+        assert LPStructure.implication(True, False) == True
+
+    pass
