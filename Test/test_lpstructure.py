@@ -1,5 +1,4 @@
 import unittest
-
 from LPStructure.lpstructure import LPStructure
 
 
