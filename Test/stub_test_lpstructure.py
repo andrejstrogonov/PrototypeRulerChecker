@@ -2,19 +2,18 @@ from LPStructure.lpstructure import LPStructure
 
 
 class TestStub:
+
     def test_sum(self):
         if LPStructure.sum(True, False):
-            return True
-
+            assert LPStructure.sum(True, False) == True
         pass
 
     def test_multiplication(self):
-        if LPStructure.multiplication(True, False):
-            return True
-        pass
+        assert LPStructure.sum(True, False) == False
+
+    pass
 
     def test_implication(self):
-        if not LPStructure.implication(True, False):
-            return True
+        assert LPStructure.sum(True, False) == True
 
     pass
