@@ -7,7 +7,7 @@ class TestStub:
         pass
 
     def test_multiplication(self):
-        assert LPStructure.multiplication(True, False) == True
+        assert LPStructure.multiplication(True, False) == False
         pass
 
     def test_implication(self):
