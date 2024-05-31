@@ -5,7 +5,8 @@ class TestStub:
 
     def test_sum(self):
         assert LPStructure.sum(True, False) == True
-        pass
+
+    pass
 
     def test_multiplication(self):
         assert LPStructure.multiplication(True, False) == False
