@@ -1,5 +1,5 @@
 import unittest
-import main_application
+
 from LPStructure.ActivationFunctions import ActivationFunctions
 
 
