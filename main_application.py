@@ -10,7 +10,6 @@ class TestParser:
             return True
         else:
             return False
-        pass
 
     @staticmethod
     def riskcalc():
@@ -18,8 +17,6 @@ class TestParser:
             return True
         else:
             return False
-
-        pass
 
     @classmethod
     def holstercalc(cls):
@@ -30,8 +27,6 @@ class TestParser:
         else:
             return 0.5
 
-        pass
-
     @classmethod
     def startcalc(cls):
         if TestParser.start[1] == "True":
@@ -40,12 +35,6 @@ class TestParser:
             return False
         else:
             return "not correct"
-
-        pass
-
-
-pass
-
 
 
 if __name__ == '__main__':
