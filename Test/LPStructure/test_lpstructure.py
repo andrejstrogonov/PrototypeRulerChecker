@@ -4,15 +4,15 @@ from LPStructure.lpstructure import LPStructure
 
 class MyTestCase(unittest.TestCase):
     def test_sum(self):
-        self.assertEqual(LPStructure.sum(), True)
+        self.assertTrue(LPStructure.sum())
         pass
 
     def test_multiplication(self):
-        self.assertEqual(LPStructure.multiplication(), False)
+        self.assertFalse(LPStructure.multiplication())
         pass
 
     def test_implication(self):
-        self.assertEqual(LPStructure.implication(), False)
+        self.assertFalse(LPStructure.implication())
         pass
 
 
