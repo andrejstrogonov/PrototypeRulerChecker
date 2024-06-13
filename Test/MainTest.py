@@ -22,7 +22,7 @@ class MyTestCase1(unittest.TestCase):
 
     @staticmethod
     def test_product(self):
-        self.assertEqual(ActivationFunctions.relu(2), 2)
+        assert (ActivationFunctions.relu(2)) == 2
 
         pass
 

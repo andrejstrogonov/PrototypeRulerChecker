@@ -1,7 +1,7 @@
 from LPStructure.lpstructure import LPStructure
 
 
-class TestStub:
+class NextTestStub:
 
     def test_sum(self):
         assert LPStructure.sum(False, True) == True
