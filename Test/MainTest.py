@@ -1,23 +1,23 @@
 import unittest
-
 from LPStructure.ActivationFunctions import ActivationFunctions
+from main_application import TestParser
 
 
 class MyTestCase1(unittest.TestCase):
     def test_weight(self):
-        self.assertTrue((main.TestParser.calculator()))
+        self.assertTrue((TestParser.calculator()))
         pass
 
     def test_risk(self):
-        self.assertTrue((main.TestParser.riskcalc()))
+        self.assertTrue((TestParser.riskcalc()))
 
         def test_holester():
-            self.assertTrue((main.TestParser.holstercalc()))
+            self.assertTrue((TestParser.holstercalc()))
 
         pass
 
     def test_start(self):
-        self.assertTrue(main.TestParser.startcalc())
+        self.assertTrue(TestParser.startcalc())
         pass
 
     @staticmethod
