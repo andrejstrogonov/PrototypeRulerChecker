@@ -1,7 +1,7 @@
 from functools import reduce
 
-from ActivationFunctions import ActivationFunctions
-from lpstructure import LPStructure
+from LPStructure.ActivationFunctions import ActivationFunctions
+from LPStructure.lpstructure import LPStructure
 
 facts = [0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1]
 weights = [0.23, 0.25, 0.5, 0.75, 0.99, 1.0]

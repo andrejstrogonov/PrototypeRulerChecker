@@ -1,3 +1,5 @@
+import sys
+
 class TestParser:
     weight = {1: "normal", 2: "not good"}
     risk = {1: "low_medium", 2: "low"}

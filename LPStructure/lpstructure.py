@@ -18,6 +18,5 @@ class LPStructure:
         print(LPStructure.implication())
 
 
-
 if __name__ == '__main__':
     LPStructure.print_method()
